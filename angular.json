@@ -25,9 +25,18 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
-            ],
-            "scripts": []
+           ],
+           "scripts": [
+
+            "node_modules/jquery/dist/jquery.js",
+
+            "node_modules/popper.js/dist/umd/popper.js",
+
+            "node_modules/bootstrap/dist/js/bootstrap.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5cb6945c-59c9-4d28-b189-639a38f1c952"
   }
 }
